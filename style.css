@@ -20,6 +20,7 @@ h1 {
 .container {
   margin: 0 auto;
   max-width: 80%;
+<<<<<<< HEAD
   padding-top: 20px;
 }
 
@@ -98,4 +99,14 @@ button:hover {
 
 input[type='radio'] {
   margin-bottom: 10px;
+=======
+}
+
+.image__container {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+>>>>>>> 11f630606debdba3867c66093f3c98e0cc992c5d
 }

@@ -14,9 +14,89 @@
     <h1>Hello World</h1>
 
     <main class="container">
-      <figure class="image__container">
-        <img src="img/image-1.png" alt="indians" class="image" />
-      </figure>
+      
+
+      <section class='form__control'>
+        <h2>Registrasi Mahasiswa</h2>
+        <form action="">
+          <table>
+              <tr>
+                <td>
+                  <label for="name">Nama Lengkap
+                  </label>
+                </td>
+                <td>
+                  :
+                </td>
+                <td>
+                  <input type="text" id="name"> <br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <label for="alamat">Alamat Lengkap 
+                </label>
+              </td>
+              <td>
+                :
+              </td>
+              <td>
+                <textarea name="alamat" id="alamat" cols="40" rows="10"></textarea>
+              </td>
+              </tr>
+              <tr>
+                <td>
+          <label for="agama">Agama </label>
+        </td>
+        <td>:</td>
+          <td>
+          <select name="agama" id="agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="budha">Budha</option>
+          </select>
+        </td>
+        </tr>
+        <tr>
+          <td>
+          <label for="hobi">Hobi<label>
+          </td>
+          <td>:</td>
+          <td>
+            <input type="checkbox" id="hobi1" value="Sepakbola">
+            <label for="hobi1">Sepakbola</label>
+            <input type="checkbox" id="hobi2" value="Senam"> 
+            <label for="hobi2">Senam</label>
+            <input type="checkbox" id="hobi3" value="Komputer">
+            <label for="hobi3">Komputer</label>
+          </td>
+          </tr>
+
+          <tr>
+            <td>
+            <label for="jurusan">Jurusan </label>
+          </td>
+          <td>:</td>
+          <td>
+            <input type="radio" id='KA' value='komputer akuntansi' name='jurusan'>
+            <label for="KA">Komputer Akuntansi</label> <br>
+            <input type="radio" id='TK' value='Teknik Komputer' name='jurusan'>
+            <label for="TK">Teknik Komputer</label> <br>
+            <input type="radio" id='SI' value='Sistem Informasi' name='jurusan'>
+            <label for="SI">Sistem Informasi</label>
+          </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+            <button type="submit">Simpan</button>
+          </td>
+          </tr>
+          </table>
+        </form>
+      
+      </section>
     </main>
   </body>
 </html>
